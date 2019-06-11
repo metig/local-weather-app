@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CitySearchComponent } from './city-search.component';
+import { MatIcon, MatIconModule } from '@angular/material';
 
 describe('CitySearchComponent', () => {
   let component: CitySearchComponent;
@@ -8,6 +9,7 @@ describe('CitySearchComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      import: [ MatIconModule],
       declarations: [ CitySearchComponent ]
     })
     .compileComponents();
