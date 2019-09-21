@@ -1,0 +1,13 @@
+.bluetext{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    background-image: src(/image/weather.jpg)
+
+
+
+}
+mat-card {
+    width: ;
+}
